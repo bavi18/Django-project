@@ -4,6 +4,7 @@ from app1.models import *
 from django.conf import settings
 from django.core.files.storage import FileSystemStorage
 from django.db.models import Q
+import os
 
 # Create your views here.
 def signup1(request):
